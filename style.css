@@ -63,21 +63,25 @@ body {
 
 .menu{
   position: relative;
+  display:flex;
+  justify-content: center;
 }
-#show{
-  margin-left: 45%;
-  position: fixed;
+.menu form{
+  position: relative;
+  padding-right: 20px;
+  
 }
-#add{
-  margin-left: 50%;
-  position: fixed;
+
+.item-container{
+  display:flex;
+  flex-direction: column;
+  gap: 16px;
 }
 section{
-  position: fixed;
   height: auto;
   margin: 20px auto;
   width: 90%;
-  display: flex;
+  display: flex !important;
   justify-content: space-around;
 }
 section div{
@@ -115,6 +119,11 @@ section h6{
     width: 50px;
     margin: 5px;
     font-size: 15px;
+}
+#back_img{
+  position: fixed;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -200,7 +209,7 @@ a.button {
 }
 
 
-/* book-ins */
+/* reservations */
 
 .reservation{
   position: relative;

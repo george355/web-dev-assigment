@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <body>
+	  
 	<form method="post" action="process.php">
 		Item id:<br>
 		<input type="int" name="item-id">
@@ -17,8 +18,7 @@
 		Image:<br>
 		<input type="text" name="item-image">
 		<br><br>
-		<input type="submit" name="save" value="save new item">
-		<input type="submit" name="show" value="show items">
+		<input type="submit" name="save" action="menu.php" value="save new item">
 	</form>
 	
 
